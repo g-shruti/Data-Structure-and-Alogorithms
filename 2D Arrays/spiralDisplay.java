@@ -15,7 +15,10 @@ public class spiralDisplay {
        }
        spiralDisplay(array);
     }
-    
+ //row start - rs
+ //row end - re
+// column start - cs
+ //column end - ce   
     public static void spiralDisplay(int[][]arr){
         int rs =0;
         int re = arr.length-1;
